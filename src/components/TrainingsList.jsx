@@ -59,7 +59,7 @@ function TrainingsList() {
         <>
             <div
                 className="ag-theme-material" // applying the Data Grid theme
-                style={{ height: 500 }} // the Data Grid will fill the size of the parent container
+                style={{ width: "100vw", height: "100vh" }} // the Data Grid will fill the size of the parent container
             >
                 <AgGridReact
                     rowData={trainings}

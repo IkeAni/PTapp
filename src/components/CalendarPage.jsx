@@ -38,7 +38,7 @@ function CalendarPage() {
     const eventTooltipAccessor = event => `${event.title} (${event.customer || 'No customer'})`;
 
     return (
-        <div style={{ height: "80vh", margin: "20px" }}>
+        <div style={{ width: "97vw", height: "97vh"}}>
             <h2 style={{ textAlign: "center" }}>Training Calendar</h2>
             <Calendar
                 localizer={localizer}
