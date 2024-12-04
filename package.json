@@ -17,13 +17,15 @@
     "@mui/x-date-pickers": "^7.23.0",
     "ag-grid-react": "^32.3.3",
     "dayjs": "^1.11.13",
+    "lodash": "^4.17.21",
     "moment": "^2.30.1",
     "moment-timezone": "^0.5.46",
     "ptapp": "file:",
     "react": "^18.3.1",
     "react-big-calendar": "^1.16.3",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.0.1"
+    "react-router-dom": "^7.0.1",
+    "recharts": "^2.14.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
