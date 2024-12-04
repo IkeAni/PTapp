@@ -9,6 +9,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import TrainingsList from './components/Trainingslist';
 import CalendarPage from './components/CalendarPage';
+import ActivityChart from './components/ActivityChart';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Button color="inherit" component={Link} to="/">Customers</Button>
             <Button color="inherit" component={Link} to="/trainings">Trainings</Button>
             <Button color="inherit" component={Link} to="/calendar">Calendar</Button>
+            <Button color="inherit" component={Link} to="/trainingchart">Training Chart</Button>
           </Toolbar>
         </AppBar>
         <CssBaseline />
@@ -29,6 +31,7 @@ function App() {
           <Route path="/" element={<CustomerList />} />
           <Route path="/trainings" element={<TrainingsList />} />
           <Route path="/calendar" element={<CalendarPage />} />
+          <Route path='/trainingchart' element={<ActivityChart />} />
         </Routes>
       </Container>
     </Router>
