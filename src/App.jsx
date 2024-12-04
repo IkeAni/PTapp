@@ -13,7 +13,7 @@ import ActivityChart from './components/ActivityChart';
 
 function App() {
   return (
-    <Router>
+    <Router basename = '/PTapp'>
       <Container maxWidth="xl">
         <AppBar position='static'>
           <Toolbar>
